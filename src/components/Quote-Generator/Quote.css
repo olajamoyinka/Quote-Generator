@@ -1,0 +1,73 @@
+.container {
+    width: 607px;
+    height: 500px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: transparent;
+}
+
+video {
+    position: absolute;
+    object-fit: fill;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-color: rgba(0, 0, 0, 0.762);
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: blanchedalmond;
+    margin-top: 10px;
+    background: black;
+    height: 40px;
+    width: fit-content;
+    border-radius: 10px;
+    cursor: pointer;
+    position: fixed;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes {
+    margin-top: 30px;
+    width: 450px;
+    height: fit-content;
+    background: transparent;
+    border: 2px solid rgb(244, 8, 8);
+    border-radius: 15px;
+}
+
+.the-quotes {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.author {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(244, 8, 8);
+    text-align: end;
+}
+
+@media screen and (max-width :557px) {
+    video {
+        width: 200%;
+        padding: 5px;
+        margin: 5px;
+    }
+}
